@@ -8,6 +8,16 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "paths": {
+      "material": [
+        "dist/material/material",
+        "dist/material"
+      ],
+      "material-lib": [
+        "dist/material-lib/material-lib",
+        "dist/material-lib"
+      ]
+    },
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
